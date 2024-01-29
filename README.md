@@ -10,4 +10,4 @@
     > https://www.python.org/downloads/ <
     
     2. Once Python is installed open a new terminal/Powershell if on Windows (also called command line) and run the command
-    > ```pip install discord```
+    > pip install discord
