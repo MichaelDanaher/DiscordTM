@@ -17,3 +17,8 @@
 
   Download the entire folder titled DiscordTM and run the ```main.py``` file 
   When the file opens in the terminal you will be prompted with multiple options, pick the setup and follow the directions below to get the channel id/bot token of the bot
+
+  ### Setup the Discord Application
+
+  Navigate to ```https://discord.com/developers/applications``` and make a new application
+  
