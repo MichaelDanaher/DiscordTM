@@ -6,8 +6,8 @@
 
   ## How to use
 
-    1. Install the latest version of Python and install
+     Install the latest version of Python and install
     > https://www.python.org/downloads/ <
     
-    2. Once Python is installed open a new terminal/Powershell if on Windows (also called command line) and run the command
+     Once Python is installed open a new terminal/Powershell if on Windows (also called command line) and run the command
     > pip install discord
