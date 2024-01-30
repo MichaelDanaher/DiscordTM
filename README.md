@@ -48,3 +48,4 @@
   
   * be aware you will need to load the message viewer and the message sender in different terminals
   * the program will produce an error if you do not have a channel id and token set
+  * if this says something along the lines of "this file does not exist..." you might have to run it in a virtual python enviornment which details can be found here ```https://docs.python.org/3/library/venv.html```
