@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import tracemalloc
 import os
+#from os import _exit
 # idk why i need tracemalloc but it doesnt work without it :shrug: 
 
 tracemalloc.start()
@@ -30,7 +31,8 @@ async def on_ready():
         message = input(": ")
         if message == "!!!":
             print("Exiting...")
-            break
+            # imma be honest i had to look up line 35 
+            os._exit(0)
 
         # sends stuff
         payload = (f"{username}: {message}")
