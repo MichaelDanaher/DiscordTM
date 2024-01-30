@@ -45,3 +45,4 @@
   To run the program, launch the ```main.py``` program and follow the prompts to send and recieve messages. From there, follow the prompts to be able to send + recieve messages
   
   * be aware you will need to load the message viewer and the message sender in different terminals
+  * the program will produce an error if you do not have a channel id and token set
