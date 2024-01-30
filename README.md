@@ -38,7 +38,7 @@
 
   Run the main file by navigating to the directory in a terminal and running ```python3 main.py``` or ```python main.py``` or right click the main file and open with Python
 
-  Run the setup by entering 4 when prompted and setting the channel id and token id, this is where you can change your username
+  Run the setup by entering 3 when prompted and setting the channel id and token id, this is where you can change your username
 
 ## Run DiscordTM 
 
