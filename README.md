@@ -3,6 +3,8 @@
   * DiscordTM (Discord Terminal Messenger) is a command line script to send a recieve Discord messages without the webapp
   * Haven't found an actual use for this so 🤷‍♂️
 
+  * This was also just something I wrote in class to pass the time so it doesn't work all that well
+
 
   ## How to use
   
