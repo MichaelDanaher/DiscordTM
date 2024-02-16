@@ -6,8 +6,6 @@ import os
 
 tracemalloc.start()
 
-
-
 with open("username.txt", "r") as userFile:
     username = userFile.read()
 with open("secrettoken.txt", "r") as tokenFile:
