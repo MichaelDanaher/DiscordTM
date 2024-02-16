@@ -34,7 +34,8 @@ with open("username.txt", "r+") as Usernamefile:
             file.truncate()
             usernameInput = input("Enter your username: ")
             file.write(usernameInput)
-            print("Setup complete. Exiting program.")
+        with open("username.txt", "r") as Usernamefile:
+            print(f"Setup complete. Your new username is \"{Usernamefile.read()}\". Exiting program.")
 if question == "4":
     print("Exiting program.")
     exit()
