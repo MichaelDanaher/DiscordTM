@@ -2,8 +2,7 @@ import discord
 from discord.ext import commands
 import tracemalloc
 import os
-#from os import _exit
-# idk why i need tracemalloc but it doesnt work without it :shrug: 
+# doesnt work without traceomalloc
 
 tracemalloc.start()
 
@@ -19,19 +18,17 @@ with open("discordChannel.txt", "r") as channelFile:
 
 
 bot = commands.Bot(intents=discord.Intents.default(), command_prefix="!")
-# idk why i need a command prefix but it doesnt work without it 
 
-print("Type \"!!!\" to exit. ")
+print("Type \"!exit\" to exit. ")
 
 
-# sends message (no idea why it needs async)
+# sends message
 @bot.event
 async def on_ready():
     while True:
-        message = input(": ")
-        if message == "!!!":
+        message = input(f"{username}: ")
+        if message == "!exit":
             print("Exiting...")
-            # imma be honest i had to look up line 35 
             os._exit(0)
 
         # sends stuff
